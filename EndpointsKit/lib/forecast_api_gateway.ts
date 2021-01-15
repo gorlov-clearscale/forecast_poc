@@ -14,6 +14,7 @@ export class ForecastAPIGateway extends APIGateway.RestApi {
             proxy: true
         })
         forecasts.addMethod("POST", makeForecastIntegration)
+
     }
 
 }
